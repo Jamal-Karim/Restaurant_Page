@@ -6,10 +6,8 @@ export function createHomePage() {
 
     //header
     const header = document.createElement("header");
-    // header.classList.add("header");
 
     const nav = document.createElement("nav");
-    // nav.classList.add("nav");
 
     const a1 = document.createElement("a");
     a1.href = "#";
