@@ -10,14 +10,17 @@ export function createContactPage() {
     const nav = document.createElement("nav");
 
     const a1 = document.createElement("a");
+    a1.setAttribute("id", "home");
     a1.href = "#";
     a1.textContent = "Home";
 
     const a2 = document.createElement("a");
+    a2.setAttribute("id", "menu");
     a2.href = "#";
     a2.textContent = "Menu";
 
     const a3 = document.createElement("a");
+    a3.setAttribute("id", "contact");
     a3.href = "#";
     a3.textContent = "Contact";
 
