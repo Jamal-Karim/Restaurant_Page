@@ -1,0 +1,238 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+    isolation: isolate;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* homepage */
+
+
+.homepage {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/pancakes.jpg);
+    background-size: cover;
+    background-position: 50% 70%;
+    background-repeat: no-repeat;
+}
+
+.titleContainer {
+    display: flex;
+    height: 80vh;
+}
+
+.title {
+    font-family: 'Arvo', sans-serif;
+    color: white;
+    font-size: 7rem;
+    align-self: flex-end;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+}
+
+nav {
+    margin-top: 1.2rem;
+}
+
+nav a {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: white;
+    margin-right: 3rem;
+    font-size: 1.2rem;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Menu */
+
+.menu {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(images/menuPancakes.jpg);
+    background-size: cover;
+    background-position: 50% 70%;
+    background-repeat: no-repeat;
+}
+
+.menu h1 {
+    font-family: 'Arvo', sans-serif;
+    color: white;
+    font-size: 7rem;
+    margin-left: 3rem;
+}
+
+.option1 {
+    border-radius: 25px;
+    background-color: beige;
+    width: 30vw;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuTitle {
+    font-family: 'Arvo', sans-serif;
+    margin-bottom: 1.2rem;
+}
+
+.menuText {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.menuPrice{
+    margin-top: 1rem;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-weight: 700;
+}
+
+.option2 {
+    border-radius: 25px;
+    background-color: beige;
+    width: 30vw;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.option3 {
+    border-radius: 25px;
+    background-color: beige;
+    width: 30vw;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.option4 {
+    border-radius: 25px;
+    background-color: beige;
+    width: 30vw;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+    justify-items: center;
+}
+
+/* Contact */
+
+.contact{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/contactPancakes.jpg);
+    background-size: cover;
+    background-position: 50% 70%;
+    background-repeat: no-repeat;
+}
+
+.contactTitle{
+    font-family: 'Arvo', sans-serif;
+    color: white;
+    font-size: 7rem;
+    margin-left: 3rem;
+}
+
+.address{
+    margin-left: 3rem;
+}
+
+.addressTitle{
+    font-family: 'Arvo', sans-serif;
+    color: white;
+    font-size: 3rem;
+}
+
+.addressText{
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.hours{
+    margin-left: 3rem;
+}
+
+.hoursTitle{
+    font-family: 'Arvo', sans-serif;
+    color: white;
+    font-size: 3rem;
+}
+
+li{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    list-style: none;
+}
+
+.socials{
+    margin-left: 3rem;
+}
+
+.socials h2{
+    font-family: 'Arvo', sans-serif;
+    color:white;
+    font-size: 3rem;
+}
