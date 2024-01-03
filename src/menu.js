@@ -47,7 +47,7 @@ export function createMenuPage(){
     option1.append(menuTitle1);
 
     const menuText1 = document.createElement("p");
-    menuText1.textContent = "3 big and fluffy pancakes stacked on top of each other,topped off with maple syrup."
+    menuText1.textContent = "3 big and fluffy pancakes stacked on top of each other, topped off with maple syrup."
     menuText1.classList.add("menuText");
     option1.append(menuText1);
 
